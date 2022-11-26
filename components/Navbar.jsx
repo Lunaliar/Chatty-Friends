@@ -5,6 +5,7 @@ import {signOut} from "firebase/auth";
 import {useRouter} from "next/router";
 import {BiLogOut} from "react-icons/bi";
 import {AuthContext} from "../context/AuthContext";
+import Image from "next/image";
 function Navbar() {
 	const router = useRouter();
 	const {currentUser} = useContext(AuthContext);
@@ -19,7 +20,7 @@ function Navbar() {
 				<AiOutlineWechat size={30} />
 			</span>
 			<div className="user">
-				<img src={currentUser?.photoURL} alt="/" />
+				<Image width={30} height={30} src={currentUser?.photoURL} alt="/" />
 				<span>{currentUser?.displayName}</span>
 				<BiLogOut
 					onClick={handleClick}

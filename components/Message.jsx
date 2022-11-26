@@ -1,6 +1,7 @@
 import React, {useContext, useEffect, useRef} from "react";
 import {ChatContext} from "../context/ChatContext";
 import {AuthContext} from "../context/AuthContext";
+import Image from "next/image";
 
 function Message({message}) {
 	const {currentUser} = useContext(AuthContext);
@@ -67,7 +68,9 @@ function Message({message}) {
 					message.senderId === currentUser.uid && "owner"
 				}`}
 			>
-				<img
+				<Image
+					width={60}
+					height={60}
 					src={
 						message.senderId === currentUser.uid
 							? currentUser.photoURL

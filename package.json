@@ -18,5 +18,18 @@
     "react-icons": "^4.6.0",
     "sass": "^1.56.1",
     "uuid": "^9.0.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "firebase.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lunaliar/Chatty-Friends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lunaliar/Chatty-Friends/issues"
+  },
+  "homepage": "https://github.com/Lunaliar/Chatty-Friends#readme"
 }

@@ -245,7 +245,8 @@ a {
 				background-color: #5d5b8d;
 				display: flex;
 				align-items: center;
-				justify-content: space-between;
+				justify-content: center;
+				font-weight: 600;
 				padding: 10px;
 				color: lightgray;
 			}
@@ -278,8 +279,8 @@ a {
 						font-weight: 300;
 
 						img {
-							width: 40px;
-							height: 40px;
+							width: 60px;
+							height: 60px;
 							border-radius: 50%;
 							object-fit: cover;
 						}

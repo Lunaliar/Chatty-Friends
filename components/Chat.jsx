@@ -16,9 +16,9 @@ function Chat() {
 			<div className="chatInfo">
 				<span>{data.user?.displayName}</span>
 				<div className="chatIcons">
-					<AiFillVideoCamera />
+					{/* <AiFillVideoCamera />
 					<AiOutlineUserAdd />
-					<AiOutlineEllipsis />
+					<AiOutlineEllipsis /> */}
 				</div>
 			</div>
 			{data.user && currentUser && <Messages />}

@@ -12,6 +12,7 @@ import {
 } from "firebase/firestore";
 import {db} from "../firebase";
 import {AuthContext} from "../context/AuthContext";
+import Image from "next/image";
 
 function Search() {
 	const {currentUser} = useContext(AuthContext);
@@ -95,7 +96,7 @@ function Search() {
 			{err && <span>User not found!</span>}
 			{user && (
 				<div className="userChat" onClick={handleSelect}>
-					<img src={user.photoURL} alt="userphoto" />
+					<Image width={50} height={50} src={user.photoURL} alt="userphoto" />
 					<div className="userChatInfo">
 						<span>{user.displayName}</span>
 					</div>
