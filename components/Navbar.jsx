@@ -1,11 +1,12 @@
-import React, {useContext} from "react";
-import {AiOutlineWechat} from "react-icons/ai";
-import {auth} from "../firebase";
 import {signOut} from "firebase/auth";
 import {useRouter} from "next/router";
+import React, {useContext} from "react";
+import {AiOutlineWechat} from "react-icons/ai";
 import {BiLogOut} from "react-icons/bi";
-import {AuthContext} from "../context/AuthContext";
+import {auth} from "../firebase";
+
 import Image from "next/image";
+import {AuthContext} from "../context/AuthContext";
 function Navbar() {
 	const router = useRouter();
 	const {currentUser} = useContext(AuthContext);

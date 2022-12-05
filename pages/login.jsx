@@ -9,13 +9,14 @@ function Login() {
 	const [err, setErr] = useState(false);
 	const [loading, setLoading] = useState(false);
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		setLoading(true);
 		const email = e.target[0].value;
 		const password = e.target[1].value;
 		try {
-			signInWithEmailAndPassword(auth, email, password).then(router.push("/"));
+			await signInWithEmailAndPassword(auth, email, password);
+			return router.push("/");
 		} catch (err) {
 			setErr(true);
 			console.log(err);

@@ -51,7 +51,7 @@ const handleTime = (lastMessageDate) => {
 	}
 };
 
-function Chats() {
+function Chats({handleOpen}) {
 	const {currentUser} = useContext(AuthContext);
 	const {dispatch} = useContext(ChatContext);
 	const [chats, setChats] = useState([]);
@@ -69,6 +69,7 @@ function Chats() {
 	}, [currentUser.uid]);
 
 	const handleSelect = (u) => {
+		handleOpen();
 		dispatch({type: "CHANGE_USER", payload: u});
 	};
 	return (

@@ -40,7 +40,7 @@ function Register() {
 						});
 
 						await setDoc(doc(db, "userChats", res.user.uid), {});
-						router.push("/");
+						return router.push("/");
 					} catch (err) {
 						console.log(err);
 						setErr(true);
