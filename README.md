@@ -1,3 +1,9 @@
+# Chatty Friends
+
+This is a chat app I made to practice firebase and test my skills at using a NoSQL database since previously I only had experience with Mongo DB(SQL). I really enjoyed making this and I feel like I learned more in this small project than other larger ones I've worked on in the past.
+
+# Next JS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

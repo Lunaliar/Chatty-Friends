@@ -4,6 +4,7 @@ import {useRouter} from "next/router";
 import React, {useState} from "react";
 import {AiOutlineWechat} from "react-icons/ai";
 import {auth} from "../firebase";
+import Head from "next/head";
 function Login() {
 	const router = useRouter();
 	const [err, setErr] = useState(false);
@@ -26,6 +27,13 @@ function Login() {
 
 	return (
 		<div className="formContainer">
+			<Head>
+				<title>Chatty Friends</title>
+				<link
+					rel="icon"
+					href="./speech-bubbles-couple-of-smiling-circular-faces.png"
+				/>
+			</Head>
 			<div className="formWrapper">
 				<span className="logo">
 					Chatty
@@ -47,6 +55,9 @@ function Login() {
 					>
 						Register
 					</Link>
+				</p>
+				<p className="credit">
+					<a href="https://savcodes.dev">Sav Costabile</a>&nbsp;Ⓒ 2022
 				</p>
 			</div>
 		</div>

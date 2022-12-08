@@ -56,6 +56,13 @@ function Register() {
 
 	return (
 		<div className="formContainer">
+			<Head>
+				<title>Chatty Friends</title>
+				<link
+					rel="icon"
+					href="./speech-bubbles-couple-of-smiling-circular-faces.png"
+				/>
+			</Head>
 			<div className="formWrapper">
 				<span className="logo">
 					Chatty
@@ -83,6 +90,9 @@ function Register() {
 					>
 						Login
 					</Link>
+				</p>
+				<p className="credit">
+					<a href="https://savcodes.dev">Sav Costabile</a>&nbsp;Ⓒ 2022
 				</p>
 			</div>
 		</div>
