@@ -1,6 +1,6 @@
 # Chatty Friends
 
-This is a chat app I made to practice firebase and test my skills at using a NoSQL database since previously I only had experience with Mongo DB(SQL). I really enjoyed making this and I feel like I learned more in this small project than other larger ones I've worked on in the past.
+This is a chat app I made to practice and learn how to use firebase. I really enjoyed making this and I feel like I learned more in this small project than other larger ones I've worked on in the past.
 
 # Next JS
 
