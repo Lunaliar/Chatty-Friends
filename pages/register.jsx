@@ -92,10 +92,10 @@ function Register() {
 						Login
 					</Link>
 				</p>
-				<p className="credit">
-					<a href="https://savcodes.dev">Sav Costabile</a>&nbsp;Ⓒ 2022
-				</p>
 			</div>
+			<p className="credit">
+				<a href="https://savcodes.dev">Sav Costabile</a>&nbsp;Ⓒ 2022
+			</p>
 		</div>
 	);
 }

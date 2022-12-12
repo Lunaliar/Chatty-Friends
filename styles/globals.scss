@@ -40,8 +40,10 @@ a {
 	height: 100vh;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	justify-content: center;
 	.credit {
+		font-size: 0.5em;
 		a {
 			color: blue;
 			text-decoration: underline;
