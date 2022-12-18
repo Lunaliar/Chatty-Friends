@@ -1,6 +1,6 @@
 # Chatty Friends
 
-This is a chat app I made to practice and learn how to use firebase. I really enjoyed making this and I feel like I learned more in this small project than other larger ones I've worked on in the past.
+This is a chat app I made to practice and solidify my knowledge of Firebase. I also wanted to get my boots wet with a new styling framework, so I used Tailwind CSS for this project. I enjoyed making this and learned more in this small project than in other larger ones I've worked on.
 
 # Next JS
 
